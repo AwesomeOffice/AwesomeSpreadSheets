@@ -1,0 +1,105 @@
+﻿<Window x:Class="AwesomeSpreadSheets.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Awesome SpreadSheets" Height="600" Width="900">
+    <DockPanel>
+
+        <!-- Custom Ribbon Bar -->
+        <TabControl VerticalAlignment="Top" Height="100" Background="LightGray" DockPanel.Dock="Top">
+            <!-- Home Tab -->
+            <TabItem Header="Home" Background="LightGray" Foreground="#FFBCBCC3">
+                <StackPanel Orientation="Horizontal" Margin="10,0">
+                    <!-- Open Button -->
+                    <Button Width="52" Height="50" BorderBrush="LightGray" Background="LightGray" Click="Open_Click">
+                        <StackPanel>
+                            <Image Source="open.png" Width="32" Height="32"/>
+                            <TextBlock Text="Open" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+
+                    <!-- Save Button -->
+                    <Button Width="55" Height="50" BorderBrush="LightGray" Background="LightGray" Click="Save_Click">
+                        <StackPanel>
+                            <Image Source="save.png" Width="32" Height="32"/>
+                            <TextBlock Text="Save" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </TabItem>
+
+            <!-- View Tab -->
+            <TabItem Header="View" Foreground="#FFBCBCC3">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="LightGray" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <StackPanel Orientation="Horizontal" Margin="10,0">
+                    <!-- Zoom In -->
+                    <Button Width="57" Height="50" Background="LightGray" BorderBrush="LightGray">
+                        <StackPanel>
+                            <Image Source="/zoomin.png" Width="32" Height="32"/>
+                            <TextBlock Text="Zoom In" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+
+                    <!-- Zoom Out -->
+                    <Button Width="60" Height="50" Background="LightGray" BorderBrush="LightGray">
+                        <StackPanel>
+                            <Image Source="/zoomout.png" Width="32" Height="32"/>
+                            <TextBlock Text="Zoom Out" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </TabItem>
+
+            <!-- Insert Tab -->
+            <TabItem Header="Insert" Foreground="#FFBCBCC3">
+                <StackPanel Orientation="Horizontal" Margin="10,0">
+                    <Button Width="60" Height="50" Background="LightGray" BorderBrush="LightGray">
+                        <StackPanel>
+                            <Image Source="/addrow.png" Width="32" Height="32"/>
+                            <TextBlock Text="Row" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Width="65" Height="50" Background="LightGray" BorderBrush="LightGray">
+                        <StackPanel>
+                            <Image Source="/insert-column-5.png" Width="32" Height="32"/>
+                            <TextBlock Text="Column" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </TabItem>
+
+            <!-- Format Tab -->
+            <TabItem Header="Format" Foreground="#FFBCBCC3">
+                <StackPanel Orientation="Horizontal" Margin="10,0">
+                    <Button Width="60" Height="50" Background="LightGray" BorderBrush="LightGray">
+                        <StackPanel>
+                            <Image Source="/image_processing20210620-28232-hvqpn.png" Width="32" Height="32"/>
+                            <TextBlock Text="Bold" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Width="60" Height="50" Background="LightGray" BorderBrush="LightGray">
+                        <StackPanel>
+                            <Image Source="/image_processing20210620-9573-552b5t.png" Width="32" Height="32"/>
+                            <TextBlock Text="Italic" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Help">
+             
+                    <Button Content="About" Click="AboutButton_Click" Height="64" Margin="0,0,-3,0"/>
+              
+            </TabItem>
+        </TabControl>
+
+        <!-- Spreadsheet Grid -->
+        <DataGrid Name="SpreadsheetGrid" AutoGenerateColumns="True"
+                  CanUserAddRows="True" CanUserDeleteRows="True"
+                  CanUserResizeColumns="True"
+                  IsReadOnly="False" Margin="5"/>
+    </DockPanel>
+</Window>

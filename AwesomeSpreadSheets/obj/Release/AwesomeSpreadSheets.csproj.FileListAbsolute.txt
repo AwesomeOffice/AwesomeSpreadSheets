@@ -1,0 +1,17 @@
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\bin\Release\AwesomeSpreadSheets.exe.config
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\bin\Release\AwesomeSpreadSheets.exe
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\bin\Release\AwesomeSpreadSheets.pdb
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\AwesomeSpreadSheets.csproj.AssemblyReference.cache
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\MainWindow.baml
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\About.g.cs
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\MainWindow.g.cs
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\App.g.cs
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\AwesomeSpreadSheets_MarkupCompile.cache
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\AwesomeSpreadSheets_MarkupCompile.lref
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\About.baml
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\AwesomeSpreadSheets.g.resources
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\AwesomeSpreadSheets.Properties.Resources.resources
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\AwesomeSpreadSheets.csproj.GenerateResource.cache
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\AwesomeSpreadSheets.csproj.CoreCompileInputs.cache
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\AwesomeSpreadSheets.exe
+C:\Users\zohan\source\repos\AwesomeSpreadSheets\AwesomeSpreadSheets\obj\Release\AwesomeSpreadSheets.pdb
